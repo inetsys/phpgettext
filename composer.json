@@ -1,0 +1,29 @@
+{
+    "name": "inetsys/phpgettext",
+    "type": "library",
+    "description": "PHP implementation of gettext",
+    "keywords": ["gettext","phpgettext"],
+    "homepage": "https://github.com/inetsys/phpgettext",
+    "license": "GNU GPL v2",
+    "authors": [
+        {
+            "name": "Danilo Segan",
+            "homepage": "https://launchpad.net/php-gettext/",
+            "role": "Developer"
+        },
+        {
+            "name": "Pablo Banderas",
+            "homepage": "http://www.inetsys.es/",
+            "role": "Wrapper"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "classmap": [
+            "gettext.php",
+            "streams.php"
+        ]
+    }
+}
